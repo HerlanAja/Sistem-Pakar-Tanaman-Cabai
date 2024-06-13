@@ -10,9 +10,9 @@ const DiagnosisForm = ({ onResult, rules }) => {
     { code: 'G003', name: 'Batang mengalami pembusukan basah' },
     { code: 'G004', name: 'Bercak coklat pada daun' },
     { code: 'G005', name: 'Bercak meluas membentuk lingkaran' },
-    { code: 'G006', name: 'Buah membusuk dan mengering' },
-    { code: 'G007', name: 'Buah mengeluarkan cairan' },
-    { code: 'G008', name: 'Bercak coklat pada buah' },
+      { code: 'G006', name: 'Buah membusuk dan mengering' },
+      { code: 'G007', name: 'Buah mengeluarkan cairan' },
+      { code: 'G008', name: 'Bercak coklat pada buah' },
     { code: 'G009', name: 'Daun menguning dan mengering' },
     { code: 'G010', name: 'Tanaman layu secara permanen' },
     { code: 'G011', name: 'Pembuluh batang membusuk' },
@@ -47,7 +47,6 @@ const DiagnosisForm = ({ onResult, rules }) => {
 
   return (
     <div className="container mx-auto p-4 bg-white rounded-lg shadow-lg">
-      {/* Konten DiagnosisForm */}
       <div className="flex items-center justify-center mb-4">
         <img src="../assets/tanamanCabai.jpg" alt="Tanaman Cabai" className="mx-auto w-3/4 h-auto rounded-lg shadow-lg" style={{ maxWidth: '600px', maxHeight: '400px' }} />
       </div>
